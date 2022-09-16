@@ -1,0 +1,29 @@
+create your own resume data in JSON format?
+
+INPUT:
+
+var Resume =[
+{
+  "NAME":"vishwa",
+  "AGE":"21",
+  "DEGREE":"BBA Tourism",
+  "SKILLS":("jvascript,html,css"),
+  "EMAIL":"vichuvishwa004@gmail.com",
+  "PHONE":"1234567890"
+}];
+
+for (var i=0; i<Resume.length; i++){
+  for (var key in Resume[i]){
+    console.log(key,Resume[i][key]);
+    
+}
+}
+
+OUTPUT:
+
+NAME vishwa
+AGE 21
+DEGREE BBA Tourism
+SKILLS jvascript,html,css
+EMAIL vichuvishwa004@gmail.com
+PHONE 1234567890
